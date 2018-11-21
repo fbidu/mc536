@@ -15,4 +15,6 @@ python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, a
 test -e test.png && rm test.png
 
 jupyter labextension install @jupyterlab/latex
+jupyter sparqlkernel install --user
+
 jupyter lab build
