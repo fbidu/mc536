@@ -1,0 +1,135 @@
+{
+	"PUBCSNUM": [1, 8],					// Patient ID
+	"REG": [9, 10],						// SEER registry
+	"MAR_STAT": [19, 1],				// Marital status at diagnosis
+	// "RACE1V": [20, 2],				// Race/ethnicity
+	// "NHIADE": [23, 1],				// NHIA Derived Hisp Origin
+	// "SEX": [24, 1],					// Sex
+	"AGE_DX": [25, 3],					// Age at diagnosis
+	// "YR_BRTH": [28, 4],				// Year of birth
+	"SEQ_NUM": [35, 2],					// Sequence number
+	"MDXRECMP": [37, 2],				// Month of diagnosis
+	"YEAR_DX": [39, 4],					// Year of diagnosis
+	"PRIMSITE": [43, 4],				// Primary site ICD-O-2 (1973+)
+	"LATERAL": [47, 1],					// Laterality
+	"HISTO2V": [48, 4],					// Histologic Type ICD-O-2
+	"BEHO2V": [52, 1],					// Behavior Code ICD-O-2*/
+	"HISTO3V": [53, 4],					// Histologic Type ICD-O-3
+	"BEHO3V": [57, 1],					// Behavior code ICD-O-3
+	"GRADE": [58, 1],					// Grade
+	"DX_CONF": [59, 1],					// Diagnostic confirmation
+	"REPT_SRC": [60, 1],				// Type of reporting source
+	"EOD10_SZ": [61, 3],				// EOD 10 - size (1988+)
+	// "EOD10_EX": [64, 2],				// EOD 10 - extension
+	// "EOD10_PE": [66, 2],				// EOD 10 - path extension
+	// "EOD10_ND": [68, 1],				// EOD 10 - lymph node
+	// "EOD10_PN": [69, 2],				// EOD 10 - positive lymph nodes examined
+	// "EOD10_NE": [71, 2],				// EOD 10 - number of lymph nodes examined
+	// "EOD13": [73, 13],				// EOD--old 13 digit
+	// "EOD2": [86, 2],					// EOD--old 2 digit
+	// "EOD4": [88, 4],					// EOD--old 4 digit
+	// "EOD_CODE": [92, 1],				// Coding system for EOD
+	// "TUMOR_1V": [93, 1],				// Tumor marker 1
+	// "TUMOR_2V": [94, 1],				// Tumor marker 2
+	// "TUMOR_3V": [95, 1],				// Tumor marker 3
+	"CSTUMSIZ": [96, 3],				// CS Tumor size
+	// "CSEXTEN": [99, 3],				// CS Extension
+	// "CSLYMPHN": [102, 3],			// CS Lymph Nodes
+	// "CSMETSDX": [105, 2],			// CS Mets at DX
+	// "CS1SITE": [107, 3],				// CS Site-Specific Factor 1
+	// "CS2SITE": [110, 3],				// CS Site-Specific Factor 2
+	// "CS3SITE": [113, 3],				// CS Site-Specific Factor 3
+	// "CS4SITE": [116, 3],				// CS Site-Specific Factor 4
+	// "CS5SITE": [119, 3],				// CS Site-Specific Factor 5
+	// "CS6SITE": [122, 3],				// CS Site-Specific Factor 6
+	// "CS25SITE": [125, 3],			// CS Site-Specific Factor 25
+	// "DAJCCT": [128, 2],				// Derived AJCC T
+	// "DAJCCN": [130, 2],				// Derived AJCC N
+	// "DAJCCM": [132, 2],				// Derived AJCC M
+	// "DAJCCSTG": [134, 2],			// Derived AJCC Stage Group
+	// "DSS1977S": [136, 1],			// Derived SS1977
+	// "DSS2000S": [137, 1],			// Derived SS2000
+	// "DAJCCFL": [138, 1],				// Derived AJCC - flag
+	// "CSVFIRST": [141, 6],			// CS Version Input Original
+	// "CSVLATES": [147, 6],			// CS Version Derived
+	// "CSVCURRENT": [153, 6],			// CS Version Input Current
+	// "SURGPRIF": [159, 2],			// RX Summ--surg prim site
+	// "SURGSCOF": [161, 1],			// RX Summ--scope reg LN sur 2003+*/
+	// "SURGSITF": [162, 1],			// RX Summ--surg oth reg/dis
+	// "NUMNODES": [163, 2],			// Number of lymph nodes
+	"NO_SURG": [166, 1],				// Reason no cancer-directed surgery
+	// "SS_SURG": [170, 2],				// Site specific surgery (1983-1997)
+	// "SURGSCOP": [174, 1],			// Scope of lymph node surgery 98-02
+	// "SURGSITE": [175, 1],			// Surgery to other sites
+	"REC_NO": [176, 2],					// Record number
+	"TYPE_FU": [191, 1],				// Type of followup expected
+	"AGE_1REC": [192, 2],				// Age recode <1 year olds
+	"SITERWHO": [199, 5],				// Site recode ICD-O-3/WHO 2008
+	"ICDOTO9V": [204, 4],				// Recode ICD-O-2 to 9
+	"ICDOT10V": [208, 4],				// Recode ICD-O-2 to 10
+	"ICCC3WHO": [218, 3],				// ICCC site recode ICD-O-3/WHO 2008
+	"ICCC3XWHO": [221, 3],				// ICCC site rec extended ICD-O-3/ WHO 2008
+	"BEHTREND": [224, 1],				// Behavior recode for analysis
+	"HISTREC": [226, 2],				// Broad Histology recode
+	"HISTRECB": [228, 2],				// Brain recode
+	"CS0204SCHEMA": [230, 3],			// CS Schema v0204*/
+	"RAC_RECA": [233, 1],				// Race recode A
+	"RAC_RECY": [234, 1],				// Race recode Y
+	"ORIGRECB": [235, 1],				// Origin Recode NHIA
+	"HST_STGA": [236, 1],				// SEER historic stage A
+	// "AJCC_STG": [237, 2],			// AJCC stage 3rd edition (1988+)
+	// "AJ_3SEER": [239, 2],			// SEER modified AJCC stage 3rd ed (1988+)
+	// "SSS77VZ": [241, 1],				// SEER Summary Stage 1977 (1995-2000)
+	// "SSSM2KPZ": [242, 1],			// SEER Summary Stage 2000 2000 (2001-2003)
+	"FIRSTPRM": [245, 1],				// First malignant primary indicator
+	"ST_CNTY": [246, 5],				// State-county recode
+	"CODPUB": [255, 5],					// Cause of death to SEER site recode
+	"CODPUBKM": [260, 5],				// COD to site rec KM
+	"STAT_REC": [265, 1],				// Vital status recode (study cutoff used)
+	// "IHSLINK": [266, 1],				// IHS link
+	// "SUMM2K": [267, 1],				// Historic SSG 2000 Stage
+	"AYASITERWHO": [268, 2],			// AYA site recode/WHO 2008
+	"LYMSUBRWHO": [270, 2],				// Lymphoma subtype recode/WHO 2008
+	"VSRTSADX": [272, 1],				// SEER cause of death classification
+	"ODTHCLASS": [273, 1],				// SEER other cause of death classification
+	// "CSTSEVAL": [274, 1],			// CS EXT/Size Eval
+	// "CSRGEVAL": [275, 1],			// CS Nodes Eval
+	// "CSMTEVAL": [276, 1],			// CS Mets Eval
+	"INTPRIM": [277, 1],				// Primary by International Rules
+	"ERSTATUS": [278, 1],				// ER Status Recode Breast Cancer (1990+)*/
+	"PRSTATUS": [279, 1],				// PR Status Recode Breast Cancer (1990+)*/
+	"CSSCHEMA": [280, 2],				// CS Schema - AJCC 6th Edition
+	// "CS8SITE": [282, 3],				// Cs Site-specific Factor 8
+	// "CS10SITE": [285, 3],			// CS Site-Specific Factor 10*/
+	// "CS11SITE": [288, 3],			// CS Site-Specific Factor 11*/
+	// "CS13SITE": [291, 3],			// CS Site-Specific Factor 13*/
+	// "CS15SITE": [294, 3],			// CS Site-Specific Factor 15*/
+	// "CS16SITE": [297, 3],			// CS Site-Specific Factor 16*/
+	// "VASINV": [300, 1],				// Lymph-vascular Invasion (2004+)*/
+	"SRV_TIME_MON": [301, 4],			// Survival months
+	"SRV_TIME_MON_FLAG": [305, 1],		// Survival months flag
+	"INSREC_PUB": [311, 1],				// Insurance Recode (2007+)
+	// "DAJCC7T": [312, 3],				// Derived AJCC T 7th ed
+	// "DAJCC7N": [315, 3],				// Derived AJCC N 7th ed
+	// "DAJCC7M": [318, 3],				// Derived AJCC M 7th ed
+	// "DAJCC7STG": [321, 3],			// Derived AJCC 7 Stage Group
+	"ADJTM_6VALUE": [324, 2],			// Adjusted AJCC 6th T (1988+)
+	"ADJNM_6VALUE": [326, 2],			// Adjusted AJCC 6th N (1988+)
+	"ADJM_6VALUE": [328, 2],			// Adjusted AJCC 6th M (1988+)
+	"ADJAJCCSTG": [330, 2],				// Adjusted AJCC 6th Stage (1988+)
+	// "CS7SITE": [332, 3],				// CS Site-Specific Factor 7
+	// "CS9SITE": [335, 3],				// CS Site-specific Factor 9
+	// "CS12SITE": [338, 3],			// CS Site-Specific Factor 12
+	"HER2": [341, 1],					// Derived HER2 Recode (2010+)
+	"BRST_SUB": [342, 1],				// Breast Subtype (2010+)
+	"ANNARBOR": [348, 1],				// Lymphoma - Ann Arbor Stage (1983+)
+	// "CSMETSDXB_PUB": [349, 1],		// CS mets at DX-bone (2010+)
+	// "CSMETSDXBR_PUB": [350, 1],		// CS mets at DX-brain (2010+)
+	// "CSMETSDXLIV_PUB": [351, 1],		// CS mets at DX-liver (2010+)
+	// "CSMETSDXLUNG_PUB": [352, 1],	// CS mets at DX-lung (2010+)
+	// "T_VALUE": [353, 2],				// T value - based on AJCC 3rd (1988-2003)
+	// "N_VALUE": [355, 2],				// N value - based on AJCC 3rd (1988-2003)
+	// "M_VALUE": [357, 2],				// M value - based on AJCC 3rd (1988-2003)
+	"MALIGCOUNT": [359, 2],				// Total number of in situ/malignant tumors for patient
+	"BENBORDCOUNT": [361, 2],			// Total number of benign/borderline tumors for patient
+}
